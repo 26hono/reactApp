@@ -1,15 +1,17 @@
-import { SectionImage, Card1, Placement, TopBanner } from "./style.js";
+import { SectionImage, Card1, Placement, TopBanner, Subtitle } from "./style.js";
 const Home = () => {
 
     const handleClick = () => {
-        console.log('hello, ninjas');
+        //console.log('hello, ninjas');
     }
-    return ( 
+     return (
         <SectionImage>
             <TopBanner>
                 <h1>NFT WORLD</h1>
             </TopBanner>
+            <Subtitle>
             <h2>CREATE YOUR OWN</h2>
+            </Subtitle>
             
 <Placement>
 <Card1>

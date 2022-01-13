@@ -4,7 +4,6 @@ function App() {
   const title= "our services";
   return (
     <div className="App">
-      <div className= "content"></div>
       <Navbar />
       <Home />
     
